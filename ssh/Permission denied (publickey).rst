@@ -7,7 +7,7 @@ Last day, after upgraded my system, I encountered a weird error when trying to c
     [alexandre@laptop]$ ssh remote-server.lan
     Permission denied (publickey).
 
-So, what's going on? Since I haven't changed my SSH configuration. By trying to connect in verbose mode, I had the following output:
+So, what's going on? Since I haven't changed my SSH configuration. By trying to connect in verbose mode, I had the following output::
 
     [alexandre@laptop ~]$ ssh -v remote-server.lan
     OpenSSH_6.8p1, OpenSSL 1.0.2a 19 Mar 2015
