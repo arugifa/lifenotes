@@ -25,7 +25,7 @@ Firstly, I looked at the **PKGBUILD** file of the package, to identify the line 
 
 Then, I downloaded and signed this key::
 
-  $ gpg --keyserver pgp.mit.edu --recv-keys 487EACC08557AD082088DABA1EB2638FF56C0C53
+  $ gpg --keyserver hkp://pgp.mit.edu --recv-keys 487EACC08557AD082088DABA1EB2638FF56C0C53
   # pacman-key --lsign 487EACC08557AD082088DABA1EB2638FF56C0C53
 
 Please note that signing the key must be done as **root**.
